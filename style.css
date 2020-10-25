@@ -47,7 +47,7 @@ h1{
     font-size: 70px;
 }
 
-.ami{
+.description{
     color: goldenrod;
     font-size: 40px;
 }
@@ -60,5 +60,28 @@ h1{
     font-size: 55px;
     font-family: Arial, Helvetica, sans-serif; 
     font-weight: 700;
+}
+
+@media(max-width:800px){
+    #head{
+        font-size: 20px;
+        background-color: none;
+    }
+    .countdownContainer{
+        width: 220px;
+        height: 270px;
+    }
+    #name{
+        font-size: 30px;
+    }
+    .info{
+        font-size: 35px;
+    }
+    .description{
+        font-size: 27px;
+    }
+    .description td{
+        padding: 0 5px;
+    }
 }
 

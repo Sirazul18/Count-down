@@ -85,3 +85,48 @@ h1{
     }
 }
 
+@media(max-width:800px){
+    #head{
+        font-size: 20px;
+        background-color: none;
+    }
+    .countdownContainer{
+        width: 220px;
+        height: 270px;
+    }
+    #name{
+        font-size: 30px;
+    }
+    .info{
+        font-size: 35px;
+    }
+    .description{
+        font-size: 27px;
+    }
+    .description td{
+        padding: 0 5px;
+    }
+}
+@media(max-width:500px){
+    #head{
+        font-size: 20px;
+        background-color: none;
+    }
+    .countdownContainer{
+        width: 180px;
+        height: 230px;
+    }
+    #name{
+        font-size: 25px;
+    }
+    .info{
+        font-size: 30px;
+    }
+    .description{
+        font-size: 22px;
+    }
+    .description td{
+        padding: 0 3px;
+    }
+}
+
